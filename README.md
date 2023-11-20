@@ -55,9 +55,9 @@ Coordenadas3D = NamedTuple ('Coordenadas3D',
 ```
 Implementa la función `lee_puntos` en el módulo `gps.py` con la siguiente especificación. Ten en cuenta que para convertir una cadena con el formato HH:MM:SS en un objeto de tipo'time' puedes usar la siguiente expresión:
     
-        ```python
+```python
         datetime.strptime(tiempo,'%H:%M:%S').time()
-        ```
+```
 
 ```python
 def lee_puntos(fichero:str)->List[Punto]:
